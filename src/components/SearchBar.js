@@ -11,7 +11,8 @@ const SearchBar = ({ term, onTermChange, onTermSubmit }) => {
         style={styles.inputStyle}
         placeholder="Search"
         autoCapitalize="words"
-        autoCorrect={false}
+        autoCo
+        rrect={false}
         value={term}
         onChangeText={onTermChange}
         onEndEditing={onTermSubmit}
@@ -27,6 +28,7 @@ const styles = StyleSheet.create({
     borderRadius: 5,
     marginHorizontal: 15,
     flexDirection: "row",
+    marginBottom: 10,
   },
 
   inputStyle: {
