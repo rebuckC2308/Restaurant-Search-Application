@@ -35,6 +35,7 @@ const styles = StyleSheet.create({
     flex: 1,
     borderColor: "black",
     borderWidth: 1,
+    fontSize: 20,
   },
 
   iconStyle: {
